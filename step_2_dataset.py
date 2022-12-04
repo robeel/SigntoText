@@ -11,14 +11,7 @@ import csv
 
 
 class SignLanguageMNIST(Dataset):
-    """Sign Language classification dataset.
-
-    Utility for loading Sign Language dataset into PyTorch. Dataset posted on
-    Kaggle in 2017, by an unnamed author with username `tecperson`:
-    https://www.kaggle.com/datamunge/sign-language-mnist
-
-    Each sample is 1 x 1 x 28 x 28, and each label is a scalar.
-    """
+ 
 
     @staticmethod
     def get_label_mapping():
